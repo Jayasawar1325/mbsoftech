@@ -24,7 +24,6 @@ import {
             </p>
           </div>
   
-          {/* Quick Links */}
           <div>
             <h3 className="text-xl font-semibold mb-4 text-white">Quick Links</h3>
             <ul className="space-y-2 text-gray-300 text-sm">
@@ -64,7 +63,6 @@ import {
           </div>
         </div>
   
-        {/* Footer Bottom */}
         <div className="border-t border-gray-800 py-6 text-center text-gray-500 text-sm">
           © {new Date().getFullYear()} MBSoftech. All rights reserved.
         </div>

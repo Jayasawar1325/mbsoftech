@@ -6,7 +6,6 @@ const About = () => {
       <div className="container mx-auto max-w-7xl">
         <div className="flex flex-col md:flex-row items-center md:items-start gap-8 md:gap-10 lg:gap-16">
           
-          {/* Left Image */}
           <div className="w-full md:w-1/2 flex justify-center mb-6 md:mb-0">
             <img 
               src="/vector.jpg" 
@@ -15,7 +14,6 @@ const About = () => {
             />
           </div>
 
-          {/* Right Content */}
           <div className="w-full md:w-1/2">
             <p className="uppercase text-xs sm:text-sm font-semibold text-gray-700 mb-2">
               Empowering Digital Transformation

@@ -37,7 +37,6 @@ const Navbar = () => {
       scrolled ? "shadow-md py-1 md:py-2" : "bg-transparent py-2 md:py-4"
     }`}>
       <div className="container mx-auto px-4 md:px-8 lg:px-12 flex items-center justify-between h-14 md:h-16">
-        {/* Logo */}
         <div className="flex-shrink-0 flex items-center">
           <div className="flex items-center">
             <NavLink to="/" className="flex items-center">
@@ -47,7 +46,6 @@ const Navbar = () => {
           </div>
         </div>
 
-        {/* Navigation Items - Desktop */}
         <div className="hidden md:flex items-center justify-center flex-1">
           <div className="flex space-x-2 lg:space-x-6">
             <NavLink to="/" className={navLinkStyles}>
@@ -68,14 +66,11 @@ const Navbar = () => {
           </div>
         </div>
 
-        {/* Container for button & mobile menu button */}
         <div className="flex items-center">
-          {/* CTA Button - Always visible */}
           <button className="px-3 py-1.5 md:px-4 md:py-2 rounded-md text-xs md:text-sm font-medium text-white bg-[#6BC0E8] hover:bg-[#5aafda] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#6BC0E8] transition-all duration-200">
             Get Started
           </button>
           
-          {/* Mobile menu button */}
           <div className="md:hidden ml-3">
             <button
               onClick={toggleMenu}
@@ -89,7 +84,6 @@ const Navbar = () => {
         </div>
       </div>
 
-      {/* Mobile menu, show/hide based on menu state */}
       <div className={`md:hidden ${isMenuOpen ? "block" : "hidden"}`}>
         <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-white shadow-lg">
           <NavLink 

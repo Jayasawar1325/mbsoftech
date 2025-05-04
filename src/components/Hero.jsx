@@ -18,7 +18,6 @@ const Hero = () => {
           </button>
         </div>
         
-        {/* Right Image */}
         <div className="md:w-1/2 px-4 sm:px-6 md:px-0">
           <img 
             src='./hero_img.jpg' 
